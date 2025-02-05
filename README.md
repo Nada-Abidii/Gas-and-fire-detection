@@ -23,16 +23,5 @@ This project aims to enhance safety in industrial and domestic environments by d
 - *Calibration and Testing*: Sensors calibrated for accuracy and tested across multiple scenarios.
 - *Data Acquisition and Processing*: Implemented using STM32CubeIDE.
 
-## Media
-📷 *Prototype Images*: Demonstrating the system in different conditions and responses.  
-📹 *Video Simulation*: [View Simulation](YOUR_GOOGLE_DRIVE_LINK_HERE)  
-
-## Future Enhancements
-- *Online Connectivity*: Integrate IoT-based real-time monitoring.
-- *Advanced Sensors*: Enhance sensitivity and accuracy.
-- *Mobile Notifications*: Implement SMS or app-based alerts.
-
-## References
-- [Project Report](YOUR_GOOGLE_DRIVE_LINK_HERE)
-
-This project is a step towards improving safety by leveraging embedded systems for early hazard detection. 🚀
+## Simulation
+[![video](https://github.com/Nada-Abidii/Gas-and-fire-detection/blob/master/simulation.png)](https://drive.google.com/file/d/1qNoo924DbBA1huwt8rrZYbGedHFFFuWO/view?usp=drive_link)
