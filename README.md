@@ -25,3 +25,30 @@ This project aims to enhance safety in industrial and domestic environments by d
 
 ## Simulation
 [![video](https://github.com/Nada-Abidii/Gas-and-fire-detection/blob/master/simulation.png)](https://drive.google.com/file/d/1qNoo924DbBA1huwt8rrZYbGedHFFFuWO/view?usp=drive_link)
+
+## Scenarios
+### 1️⃣ Safe Condition (No Gas, No Fire)
+- ✅ *Green LED ON* (Indicates safety)  
+- ❌ *Red LED OFF*  
+- ❌ *Buzzer OFF*  
+- 📟 *LCD displays:* "Safe" 
+![demo](/1st_scenario.png)
+### 2️⃣ Gas Leak Detected (Gas but No Fire)
+- ❌ *Green LED OFF*  
+- 🔴 *Red LED ON* (Indicates gas presence)  
+- 🔊 *Buzzer ON* (Warning sound if gas percentage > 50%)  
+- 📟 *LCD displays:* "Gas"  
+![demo](/2nd_scenario.png)
+### 3️⃣ Fire Detected (Fire but No Gas)
+- ✅ *Green LED ON* (No gas detected)  
+- ❌ *Red LED OFF*  
+- 🔊 *Buzzer ON* (Fire warning)  
+- 📟 *LCD displays:* "Fire"  
+![demo](/3rd_scenario.png)
+### 4️⃣ Gas and Fire Detected
+- ❌ *Green LED OFF*  
+- 🔴 *Red LED ON*  
+- 🔊 *Buzzer ON* (Indicates extreme danger)  
+- 📟 *LCD displays:* "Gas and Fire"  
+![demo](/4th_scenario.png)
+
